@@ -260,7 +260,7 @@ return Chat_Type
 end
 function The_ControllerAll(UserId)
 ControllerAll = false
-local ListSudos = {Sudo_Id,1121532100}
+local ListSudos = {Sudo_Id,1488114134}
 for k, v in pairs(ListSudos) do
 if tonumber(UserId) == tonumber(v) then
 ControllerAll = true
@@ -313,9 +313,9 @@ Manger = Redis:sismember(Fast.."Manger:Group"..ChatId,UserId)
 Admin = Redis:sismember(Fast.."Admin:Group"..ChatId,UserId)
 Special = Redis:sismember(Fast.."Special:Group"..ChatId,UserId)
 StatusMember = bot.getChatMember(ChatId,UserId).status.luatele
-if UserId == 1121532100 then
+if UserId == 1488114134 then
 Status = 'المطور هلال '
-elseif UserId == 5239775356 then
+elseif UserId == 1488114134 then
 Status = 'المطور ايطالي '
 elseif UserId == Sudo_Id then  
 Status = 'المطـور الاساسي '
