@@ -93,7 +93,7 @@ Token = Information.Token
 UserBot = Information.UserBot
 Fast = Token:match("(%d+)")
 os.execute('sudo rm -fr .CallBack-Bot/'..Fast)
-LuaTele = luatele.set_config{api_id=1846213,api_hash='c545c613b78f18a30744970910124d53',session_name=Fast,token=Token}
+LuaTele = luatele.set_config{api_id=8897410,api_hash='43cb89a7b70782868b77ace21c1341a9',session_name=Fast,token=Token}
 function var(value)
 print(serpent.block(value, {comment=false}))   
 end 
@@ -1112,7 +1112,7 @@ local T =[[*
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '⚡مـحـمـد هـلال⚡', url = "https://t.me/MohamedHelal_l"}
+{text = '⚡بلال⚡', url = "https://t.me/ninii"}
 },
 {  
 {text = '⚡ سـورس لـوفـاريـن ⚡', url = 't.me/M_O_D_Y_CH '},
